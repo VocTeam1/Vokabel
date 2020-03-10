@@ -23,9 +23,31 @@ namespace Vokabel
         public MainWindow()
         {
             InitializeComponent();
-            Console.WriteLine("HAllo");
         }
 
+        private void Btn_Antwort_1_Click(object sender, RoutedEventArgs e)
+        {
 
+        }
+
+        private void Btn_Antwort_4_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn_Antwort_2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn_Antwort_3_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Weiter_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
