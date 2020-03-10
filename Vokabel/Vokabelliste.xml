@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <Fremdsprache>to forward </Fremdsprache>
+    <Deutsch>weiterleiten </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>traffic </Fremdsprache>
+    <Deutsch>Datenmenge </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>units </Fremdsprache>
+    <Deutsch>Einheiten </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to require </Fremdsprache>
+    <Deutsch>erfordern </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>query </Fremdsprache>
+    <Deutsch>Anfrage </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>periodically </Fremdsprache>
+    <Deutsch>Periodisch/ Regelmäßig </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to contain </Fremdsprache>
+    <Deutsch>enthalten/ beinhalten </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>filtering </Fremdsprache>
+    <Deutsch>Filterung </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>devices </Fremdsprache>
+    <Deutsch>Geräte </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>connected </Fremdsprache>
+    <Deutsch>Verbunden/ zusammengehörig </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to receive </Fremdsprache>
+    <Deutsch>erhalten </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>identifies </Fremdsprache>
+    <Deutsch>identifiziert </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>enabled </Fremdsprache>
+    <Deutsch>aktiviert </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>report packet </Fremdsprache>
+    <Deutsch>Bericht Paket </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>register </Fremdsprache>
+    <Deutsch>Register </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>when </Fremdsprache>
+    <Deutsch>wenn </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>support </Fremdsprache>
+    <Deutsch>Unterstützung/ Förderung/ Erhaltung </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>used </Fremdsprache>
+    <Deutsch>benutzt/ gebraucht/ verbraucht </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>would </Fremdsprache>
+    <Deutsch>würde/ möchte </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>works </Fremdsprache>
+    <Deutsch>Arbeitet/ Betrieb/ Werk </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>query </Fremdsprache>
+    <Deutsch>Abfrage </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>prepared </Fremdsprache>
+    <Deutsch>vorbereitet/ bereit </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>knowledge </Fremdsprache>
+    <Deutsch>Wissen/ Kenntnis/ Erkenntnis </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>constructing </Fremdsprache>
+    <Deutsch>bauen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>message </Fremdsprache>
+    <Deutsch>Nachricht </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>requests </Fremdsprache>
+    <Deutsch>Zugriffe </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>unless </Fremdsprache>
+    <Deutsch>es sei denn/ außer wenn/ wenn nicht </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>choice </Fremdsprache>
+    <Deutsch>Entscheidung/ Wahl </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>choose </Fremdsprache>
+    <Deutsch>auswählen/ wählen/ </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>accommodate </Fremdsprache>
+    <Deutsch>Unterbringen/ Anpassen/</Deutsch>
+  </row>
+  <row>
+    <Fremdsprache></Fremdsprache>
+    <Deutsch>Dienen/ Entgegenkommen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>incomplete </Fremdsprache>
+    <Deutsch>unvollständig </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>provided </Fremdsprache>
+    <Deutsch>vorausgesetzt/ unter der Bedingung </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to consist of </Fremdsprache>
+    <Deutsch>bestehen aus </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to process </Fremdsprache>
+    <Deutsch>verarbeiten </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>unit </Fremdsprache>
+    <Deutsch>Einheit/ Baugruppe </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>device </Fremdsprache>
+    <Deutsch>Vorrichtung/ Gerät </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>memory </Fremdsprache>
+    <Deutsch>Speicher/ Gedächtnis </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>mainly </Fremdsprache>
+    <Deutsch>hauptsächlich </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to contain </Fremdsprache>
+    <Deutsch>beinhalten </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to manipulate </Fremdsprache>
+    <Deutsch>behandeln/ bearbeiten </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to control </Fremdsprache>
+    <Deutsch>steuern </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to fetch </Fremdsprache>
+    <Deutsch>holen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to execute </Fremdsprache>
+    <Deutsch>ausführen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>instruction </Fremdsprache>
+    <Deutsch>Anweisung </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>temporary </Fremdsprache>
+    <Deutsch>zeitweilig/ vorübergehend/ temporär </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>result </Fremdsprache>
+    <Deutsch>Ergebnis </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>state </Fremdsprache>
+    <Deutsch>Zustand </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>likely </Fremdsprache>
+    <Deutsch>wahrscheinlich </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to need </Fremdsprache>
+    <Deutsch>benötigen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>main </Fremdsprache>
+    <Deutsch>Haupt- </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>random </Fremdsprache>
+    <Deutsch>wahlfrei/ zufällig/ beliebig </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to design </Fremdsprache>
+    <Deutsch>entwerfen/ bestimmen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to operate </Fremdsprache>
+    <Deutsch>arbeiten/ funktionieren/ operieren </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>high </Fremdsprache>
+    <Deutsch>hoch </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>speed </Fremdsprache>
+    <Deutsch>Geschwindigkeit </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>access </Fremdsprache>
+    <Deutsch>Zugang/ Zugriff </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to store </Fremdsprache>
+    <Deutsch>speichern/ lagern </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>storage </Fremdsprache>
+    <Deutsch>Speicher/ Lager </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>permanent </Fremdsprache>
+    <Deutsch>dauernd </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to transfer </Fremdsprache>
+    <Deutsch>übertragen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>drive </Fremdsprache>
+    <Deutsch>Laufwerk/ Antrieb </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to interact </Fremdsprache>
+    <Deutsch>interagieren/ einander beeinflussen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to include </Fremdsprache>
+    <Deutsch>einschließen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to connect </Fremdsprache>
+    <Deutsch>verbinden </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>via </Fremdsprache>
+    <Deutsch>über </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>cell </Fremdsprache>
+    <Deutsch>Zelle </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to location </Fremdsprache>
+    <Deutsch>Lage/ Ortsangabe/ Speicherplatz </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to require </Fremdsprache>
+    <Deutsch>verlangen/ benötigen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>equal </Fremdsprache>
+    <Deutsch>gleich </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>amount </Fremdsprache>
+    <Deutsch>Betrag </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>no matter </Fremdsprache>
+    <Deutsch>gleichgültig/ egal </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>thus </Fremdsprache>
+    <Deutsch>so/ auf diese Weise </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>line </Fremdsprache>
+    <Deutsch>Linie/ Leitung </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to provide </Fremdsprache>
+    <Deutsch>liefern/ verschaffen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to specify </Fremdsprache>
+    <Deutsch>spezifizieren/ bestimmen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>particular </Fremdsprache>
+    <Deutsch>besonders/ genau bestimmt </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to enable </Fremdsprache>
+    <Deutsch>ermöglichen/ freigeben </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to select </Fremdsprache>
+    <Deutsch>selektieren/ auswählen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>direction </Fremdsprache>
+    <Deutsch>Richtung </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>during </Fremdsprache>
+    <Deutsch>während </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>present </Fremdsprache>
+    <Deutsch>gegenwärtig </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>available </Fremdsprache>
+    <Deutsch>benutzbar/ verfügbar </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to apply to </Fremdsprache>
+    <Deutsch>zuführen/ zuweisen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>content </Fremdsprache>
+    <Deutsch>Inhalt </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to change </Fremdsprache>
+    <Deutsch>wechseln/ sich ändern </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to erase </Fremdsprache>
+    <Deutsch>löschen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to turn off </Fremdsprache>
+    <Deutsch>abschalten </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>e.g. (for example) </Fremdsprache>
+    <Deutsch>z.B./ zum Beispiel (exempli gratia) </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>capability </Fremdsprache>
+    <Deutsch>Fähigkeit </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to alter </Fremdsprache>
+    <Deutsch>verändern </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>different </Fremdsprache>
+    <Deutsch>unterschiedlich </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>volatile </Fremdsprache>
+    <Deutsch>flüchtig </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>power </Fremdsprache>
+    <Deutsch>Leistung/ Stromzufuhr </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>resident </Fremdsprache>
+    <Deutsch>ortsansässig/ Resident </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>though </Fremdsprache>
+    <Deutsch>obwohl </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>as well </Fremdsprache>
+    <Deutsch>genauso </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>order </Fremdsprache>
+    <Deutsch>Ordnung/ Aufstellung/ Reihenfolge </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>writable </Fremdsprache>
+    <Deutsch>beschreibbar </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>possible </Fremdsprache>
+    <Deutsch>möglich </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>impossible </Fremdsprache>
+    <Deutsch>unmöglich </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to remain </Fremdsprache>
+    <Deutsch>bleiben </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>valid </Fremdsprache>
+    <Deutsch>gültig </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>charge </Fremdsprache>
+    <Deutsch>Ladung </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>value </Fremdsprache>
+    <Deutsch>Wert </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>beyond </Fremdsprache>
+    <Deutsch>jenseits/ über </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>certain </Fremdsprache>
+    <Deutsch>bestimmt </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>level </Fremdsprache>
+    <Deutsch>Ebene/ Stufe/ Pegel </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to tend to </Fremdsprache>
+    <Deutsch>abzielen auf/ neigen zu </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to discharge </Fremdsprache>
+    <Deutsch>entladen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>request </Fremdsprache>
+    <Deutsch>Anforderung/ Anfrage </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>low </Fremdsprache>
+    <Deutsch>tief/ niedrig </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>large </Fremdsprache>
+    <Deutsch>groß </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>single </Fremdsprache>
+    <Deutsch>einzeln </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to package </Fremdsprache>
+    <Deutsch>zusammenpacken/ verpacken/ abpacken </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>variety </Fremdsprache>
+    <Deutsch>Vielfalt/ Auswahl </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to use </Fremdsprache>
+    <Deutsch>verwenden/ gebrauchen/ benutzen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>clock </Fremdsprache>
+    <Deutsch>takt </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>fast </Fremdsprache>
+    <Deutsch>schnell </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>several </Fremdsprache>
+    <Deutsch>einzeln/ verschiedene/ mehrere </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to differ </Fremdsprache>
+    <Deutsch>sich unterscheiden </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to measure </Fremdsprache>
+    <Deutsch>messen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>collection </Fremdsprache>
+    <Deutsch>Sammlung/ Zusammenstellung </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>grid </Fremdsprache>
+    <Deutsch>Gitter/ Raster </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to split </Fremdsprache>
+    <Deutsch>spalten/ trennen/ aufteilen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>row </Fremdsprache>
+    <Deutsch>Reihe/ Zeile </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>column </Fremdsprache>
+    <Deutsch>Säule/ Spalte </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to feed (fed) </Fremdsprache>
+    <Deutsch>versorgen/ (ein)speisen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>pin </Fremdsprache>
+    <Deutsch>Pin/ Kontakt/ Anschlussstift </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>successive </Fremdsprache>
+    <Deutsch>aufeinanderfolgend </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to latch </Fremdsprache>
+    <Deutsch>einklinken/ im Zwischenspeicher Abspeichern </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>proper </Fremdsprache>
+    <Deutsch>passend/ genau/ richtig </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>general </Fremdsprache>
+    <Deutsch>allgemein </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to await </Fremdsprache>
+    <Deutsch>abwarten/ warten auf </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>entire </Fremdsprache>
+    <Deutsch>ganz/ komplett/ vollständig </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to refer to </Fremdsprache>
+    <Deutsch>bezeichnen als/ beziehen auf </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>density </Fremdsprache>
+    <Deutsch>Dichte </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to place </Fremdsprache>
+    <Deutsch>legen/ stellen/ setzen/ platzieren </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to appear </Fremdsprache>
+    <Deutsch>(er)scheinen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>delay </Fremdsprache>
+    <Deutsch>Verzögerung </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>either ... or </Fremdsprache>
+    <Deutsch>entweder ... oder </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>array </Fremdsprache>
+    <Deutsch>Anordnung/ Feld </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to release </Fremdsprache>
+    <Deutsch>freigeben/ loslassen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>queue </Fremdsprache>
+    <Deutsch>Warteschlange/ Pufferinhalt </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>operating </Fremdsprache>
+    <Deutsch>Betrieb/ Bedienung </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>voltage </Fremdsprache>
+    <Deutsch>(elektr.) Spannung </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>twice </Fremdsprache>
+    <Deutsch>zweimal </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>due to </Fremdsprache>
+    <Deutsch>aufgrund/ infolge/ wegen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to boost </Fremdsprache>
+    <Deutsch>steigern/ fördern/ erhöhen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>improvement </Fremdsprache>
+    <Deutsch>Verbesserung/ Neuerung </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to terminate </Fremdsprache>
+    <Deutsch>abschließen/ terminieren </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>resistor </Fremdsprache>
+    <Deutsch>(elektr.) Widerstand </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to eliminate </Fremdsprache>
+    <Deutsch>wegschaffen/ eliminieren </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to improve </Fremdsprache>
+    <Deutsch>verbessern/ aufbessern </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to result in </Fremdsprache>
+    <Deutsch>ergeben/ zur Folge haben </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>consumption </Fremdsprache>
+    <Deutsch>Verbrauch </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>primary </Fremdsprache>
+    <Deutsch>verrangig/ wichtigste Primär </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>benefit </Fremdsprache>
+    <Deutsch>Gewinn/ Nutzen/ Vorteil </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>ability </Fremdsprache>
+    <Deutsch>Befähigung/ Vermögen/ Fähigkeit </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to achieve </Fremdsprache>
+    <Deutsch>erreichen/ erzielen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>option </Fremdsprache>
+    <Deutsch>Wahlmöglichkeit/ Option </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to clear </Fremdsprache>
+    <Deutsch>reinigen/ ausräumen/ löschen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to compete </Fremdsprache>
+    <Deutsch>wetteifern/ konkurrieren/ rivalisieren </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to emit </Fremdsprache>
+    <Deutsch>aussenden/ emittieren </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>successor </Fremdsprache>
+    <Deutsch>Nachfolger </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>slight </Fremdsprache>
+    <Deutsch>geringfügig/ leicht </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>carrier </Fremdsprache>
+    <Deutsch>Träger </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>distribution </Fremdsprache>
+    <Deutsch>Verteilung/ Vertrieb </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to suppose </Fremdsprache>
+    <Deutsch>annehmen/ vermuten </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to house </Fremdsprache>
+    <Deutsch>unterbringen/ beherbergen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>cartridge </Fremdsprache>
+    <Deutsch>Kassette </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>advance </Fremdsprache>
+    <Deutsch>Fortschritt/ Verbesserung </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>eventually </Fremdsprache>
+    <Deutsch>letztendlich </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>necessary </Fremdsprache>
+    <Deutsch>notwendig </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>stain </Fremdsprache>
+    <Deutsch>Schmutzfleck/ Makel </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to tape </Fremdsprache>
+    <Deutsch>Band/ Tonband/ Magnetband </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>kind </Fremdsprache>
+    <Deutsch>Art </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to support </Fremdsprache>
+    <Deutsch>unterstützen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to rate </Fremdsprache>
+    <Deutsch>einschätzen/ einordnen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to equal </Fremdsprache>
+    <Deutsch>gleichen/ gleichsetzen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to label </Fremdsprache>
+    <Deutsch>beschriften/ bezeichnen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to focus </Fremdsprache>
+    <Deutsch>bündeln/ fokussieren </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>letter </Fremdsprache>
+    <Deutsch>Buchstabe </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>rapid </Fremdsprache>
+    <Deutsch>schnell </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>calculator </Fremdsprache>
+    <Deutsch>Rechner </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to tap </Fremdsprache>
+    <Deutsch>beklopfen/ berühren/ (Taste) betätigen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to trigger </Fremdsprache>
+    <Deutsch>auslösen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>part </Fremdsprache>
+    <Deutsch>Teil </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to continue </Fremdsprache>
+    <Deutsch>fortsetzen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to customize </Fremdsprache>
+    <Deutsch>anpassen/ individuell einrichten </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to touch </Fremdsprache>
+    <Deutsch>berühren </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>button </Fremdsprache>
+    <Deutsch>Knopf/ Taste/ Schalter </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>panel </Fremdsprache>
+    <Deutsch>Schalttafel/ Bedienplatte/ Frontplatte </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to cushion </Fremdsprache>
+    <Deutsch>polstern </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>wrist </Fremdsprache>
+    <Deutsch>Handgelenk </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>alignment </Fremdsprache>
+    <Deutsch>Ausrichtung/ Einstellung </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>effort </Fremdsprache>
+    <Deutsch>Anstrengung/ Mühe </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>travel </Fremdsprache>
+    <Deutsch>Reise/ Weg/ Hub </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to point </Fremdsprache>
+    <Deutsch>zeigen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to draw </Fremdsprache>
+    <Deutsch>zeichnen/ ziehen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>goal </Fremdsprache>
+    <Deutsch>Ziel/ Zweck </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to bounce </Fremdsprache>
+    <Deutsch>stoßen/ prellen/ abprallen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>recent </Fremdsprache>
+    <Deutsch>neulich/ kürzlich </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>even </Fremdsprache>
+    <Deutsch>sogar </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to attach </Fremdsprache>
+    <Deutsch>anheften/ anbringen/ verbinden/ anschließen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to link </Fremdsprache>
+    <Deutsch>verbinden </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>wireless </Fremdsprache>
+    <Deutsch>drahtlos </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>Remote </Fremdsprache>
+    <Deutsch>Fern- </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>radio </Fremdsprache>
+    <Deutsch>Funk </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to recharge </Fremdsprache>
+    <Deutsch>wieder aufladen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>wheel </Fremdsprache>
+    <Deutsch>Rad </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to turn </Fremdsprache>
+    <Deutsch>drehen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to assign </Fremdsprache>
+    <Deutsch>zuweisen/ reservieren/ bestimmen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to slide </Fremdsprache>
+    <Deutsch>gleiten </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>dedicated </Fremdsprache>
+    <Deutsch>fest zugeordnet/ zweckbestimmt/ dediziert </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>forth </Fremdsprache>
+    <Deutsch>voran/ vorwärts </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>area </Fremdsprache>
+    <Deutsch>Gebiet </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to push </Fremdsprache>
+    <Deutsch>stoßen/ drücken </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>portable </Fremdsprache>
+    <Deutsch>tragbar </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>upside down </Fremdsprache>
+    <Deutsch>auf den Kopf gestellt </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>capacitance </Fremdsprache>
+    <Deutsch>Kapazität </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>below </Fremdsprache>
+    <Deutsch>unter(halb) </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>above </Fremdsprache>
+    <Deutsch>oberhalb/ über </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>majority </Fremdsprache>
+    <Deutsch>Mehrheit </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>image </Fremdsprache>
+    <Deutsch>Bild/ Abbildung/ Grafik </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to convert </Fremdsprache>
+    <Deutsch>umformen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to serve </Fremdsprache>
+    <Deutsch>dienen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>continuous </Fremdsprache>
+    <Deutsch>fortlaufend </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>pane </Fremdsprache>
+    <Deutsch>Fensterscheibe </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to facilitate </Fremdsprache>
+    <Deutsch>ermöglichen/ unterstützen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to respond </Fremdsprache>
+    <Deutsch>antworten/ reagieren </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>associated </Fremdsprache>
+    <Deutsch>verknüpft/ verbunden </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>light </Fremdsprache>
+    <Deutsch>Licht/ hell/ Leicht </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>plate </Fremdsprache>
+    <Deutsch>Platte/ Scheibe </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to trap </Fremdsprache>
+    <Deutsch>fangen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to switch </Fremdsprache>
+    <Deutsch>schalten </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>flicker </Fremdsprache>
+    <Deutsch>Flimmern/ Flackern </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to describe </Fremdsprache>
+    <Deutsch>beschreiben/ bezeichnen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>ghost </Fremdsprache>
+    <Deutsch>Geist </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>smear </Fremdsprache>
+    <Deutsch>Schliere </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to occur </Fremdsprache>
+    <Deutsch>passieren </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>weakness </Fremdsprache>
+    <Deutsch>Schwäche </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>angle </Fremdsprache>
+    <Deutsch>Winkel </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>range </Fremdsprache>
+    <Deutsch>Bereich/ Raum </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to maintain </Fremdsprache>
+    <Deutsch>aufrechterhalten/ unterhalten </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>brightness </Fremdsprache>
+    <Deutsch>Helligkeit </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>ratio </Fremdsprache>
+    <Deutsch>verhältnis </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>adjacent </Fremdsprache>
+    <Deutsch>angrenzend/ benachbart </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to tilt </Fremdsprache>
+    <Deutsch>kippen/ schwenken </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>orientation </Fremdsprache>
+    <Deutsch>Orientierung/ Ausrichtung </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>behavior </Fremdsprache>
+    <Deutsch>Verhalten/ Benehmen </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>envy </Fremdsprache>
+    <Deutsch>Beneiden </Deutsch>
+  </row>
+  <row>
+    <Fremdsprache>to occur </Fremdsprache>
+    <Deutsch>vorkommen </Deutsch>
+  </row>
+</root>

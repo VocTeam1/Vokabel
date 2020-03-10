@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vokabel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Vokabeltrainer" Height="450" Width="800">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="103*"/>
+      <ColumnDefinition Width="690*"/>
+    </Grid.ColumnDefinitions>
+    <Button x:Name="btn_Weiter" Content="Weiter" HorizontalAlignment="Left" Margin="571.5,209,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click" Height="59" Grid.Column="1"/>
+    <Button x:Name="btn_Antwort_4" Content="" HorizontalAlignment="Left" Margin="450.5,329,0,0" VerticalAlignment="Top" Width="108" Height="47" Grid.Column="1"/>
+    <Button x:Name="btn_Antwort_3" Content="" HorizontalAlignment="Left" Margin="272.5,329,0,0" VerticalAlignment="Top" Width="108" Height="47" Grid.Column="1"/>
+    <Button x:Name="btn_Antwort_2" Content="" HorizontalAlignment="Left" Margin="116.5,329,0,0" VerticalAlignment="Top" Width="108" Height="47" Grid.Column="1"/>
+    <Button x:Name="btn_Antwort_1" Content="" HorizontalAlignment="Left" Margin="58,329,0,0" VerticalAlignment="Top" Width="108" Height="47" Grid.ColumnSpan="2"/>
+    <Label x:Name="lbl_Fragewort" Content="" HorizontalAlignment="Left" Margin="65.5,140,0,0" VerticalAlignment="Top" Width="380" Height="128" Grid.Column="1"/>
+    <Label Content="Übersetze bitte dieses Wort:" Grid.Column="1" HorizontalAlignment="Left" Margin="74,61,0,0" VerticalAlignment="Top" Width="346"/>
+
+  </Grid>
 </Window>
