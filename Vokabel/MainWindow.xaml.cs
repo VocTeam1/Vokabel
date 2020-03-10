@@ -23,6 +23,7 @@ namespace Vokabel
         public MainWindow()
         {
             InitializeComponent();
+            Console.Write("hier");
         }
     }
 }
