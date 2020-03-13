@@ -91,6 +91,7 @@ namespace Vokabel
             btn_Antwort_2.Click -= Btn_Antwort_2_Click;
             btn_Antwort_3.Click -= Btn_Antwort_3_Click;
             btn_Antwort_4.Click -= Btn_Antwort_4_Click;
+
         }
 
     }

@@ -21,7 +21,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="btn_Antwort_4" Content="" Margin="353,209,0,0" FontSize="18" Click="Btn_Antwort_4_Click" BorderThickness="1" Style="{DynamicResource btn_Antwort_1_Style}" HorizontalAlignment="Left" Width="265" Height="70" VerticalAlignment="Top">
+        <Button x:Name="btn_Antwort_4" Content="" Margin="353,209,0,0" FontSize="18" Click="Btn_Antwort_4_Click" BorderThickness="1" Style="{DynamicResource btn_Antwort_1_Style}" HorizontalAlignment="Left" Width="265" Height="70" VerticalAlignment="Top" Cursor="Hand">
             <Button.Effect>
                 <DropShadowEffect Color="#FFA6A6A6" BlurRadius="10"/>
             </Button.Effect>
@@ -63,7 +63,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="btn_Antwort_2" Content="" Margin="44,307,0,0" FontSize="18" Click="Btn_Antwort_2_Click" Style="{DynamicResource btn_Antwort_1_Style}" HorizontalAlignment="Left" Width="265" Height="70" VerticalAlignment="Top">
+        <Button x:Name="btn_Antwort_2" Content="" Margin="44,307,0,0" FontSize="18" Click="Btn_Antwort_2_Click" Style="{DynamicResource btn_Antwort_1_Style}" HorizontalAlignment="Left" Width="265" Height="70" VerticalAlignment="Top" Cursor="Hand">
             <Button.Effect>
                 <DropShadowEffect BlurRadius="10" Color="#FFA6A6A6"/>
             </Button.Effect>
@@ -84,7 +84,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="btn_Antwort_1" Content="" Margin="44,209,0,0" FontSize="18" Click="Btn_Antwort_1_Click" Style="{DynamicResource btn_Antwort_1_Style}" HorizontalAlignment="Left" Width="265" Height="70" VerticalAlignment="Top">
+        <Button x:Name="btn_Antwort_1" Content="" Margin="44,209,0,0" FontSize="18" Click="Btn_Antwort_1_Click" Style="{DynamicResource btn_Antwort_1_Style}" HorizontalAlignment="Left" Width="265" Height="70" VerticalAlignment="Top" Cursor="Hand">
             <Button.Effect>
                 <DropShadowEffect BlurRadius="10" Color="#FFA6A6A6"/>
             </Button.Effect>
