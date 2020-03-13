@@ -40,7 +40,8 @@ namespace Vokabel
             Werte werte = new Werte();
             werte.antworten = new string[4];
             werte.frage = dataDictionary.ElementAt(rand.Next(0, dataDictionary.Count)).Key;
-            dataDictionary.TryGetValue(werte.frage, out werte.antworten[rand.Next(0, 3)]);
+            werte.correctI = rand.Next(0, 3);
+            dataDictionary.TryGetValue(werte.frage, out werte.antworten[werte.correctI]);
           //  int tmpRnd = rand.Next(0, 3);
             //  !werte.antworten[tmpRnd] == null
 
@@ -54,10 +55,27 @@ namespace Vokabel
             return werte;
 
         }
+        public bool IsCorrectAnswer(string englisch, string deutsch)
+        {
+            string correct;
+            dataDictionary.TryGetValue(englisch, out correct);
+            if (correct == deutsch)
+            {
+                return true;
+            }
+            return false;
+        }
+        public string CorrectAnswer(string englisch)
+        {
+            string correct;
+            dataDictionary.TryGetValue(englisch, out correct);
+            return correct;
+        }
     }
 
     struct Werte
     {
+        public int correctI;
         public string frage;
         public string[] antworten;
 
