@@ -54,10 +54,10 @@ namespace Vokabel
         private void Button_Weiter_Click(object sender, RoutedEventArgs e)
         {
             fillWindow();
-            btn_Antwort_1.IsEnabled = true;
-            btn_Antwort_2.IsEnabled = true;
-            btn_Antwort_3.IsEnabled = true;
-            btn_Antwort_4.IsEnabled = true;
+            btn_Antwort_1.Click += Btn_Antwort_1_Click;
+            btn_Antwort_2.Click += Btn_Antwort_2_Click;
+            btn_Antwort_3.Click += Btn_Antwort_3_Click;
+            btn_Antwort_4.Click += Btn_Antwort_4_Click;
             btn_Weiter.Visibility = Visibility.Hidden;
 
         }
@@ -76,10 +76,6 @@ namespace Vokabel
             txbl_Fragewort.Text = asd.frage;
         }
         private void check( bool check, Button sender) {
-            //btn_Antwort_1.IsEnabled = false;
-            //btn_Antwort_2.IsEnabled = false;
-            //btn_Antwort_3.IsEnabled = false;
-            //btn_Antwort_4.IsEnabled = false;
             if (check)
             {
                 sender.Background = Brushes.Green;
@@ -91,7 +87,10 @@ namespace Vokabel
             fillLabels(sender);
 
             btn_Weiter.Visibility = Visibility.Visible;
-
+            btn_Antwort_1.Click -= Btn_Antwort_1_Click;
+            btn_Antwort_2.Click -= Btn_Antwort_2_Click;
+            btn_Antwort_3.Click -= Btn_Antwort_3_Click;
+            btn_Antwort_4.Click -= Btn_Antwort_4_Click;
         }
 
     }
