@@ -20,9 +20,13 @@ namespace Vokabel
     /// </summary>
     public partial class MainWindow : Window
     {
+        Dictionary dictionary = new Dictionary();
         public MainWindow()
         {
             InitializeComponent();
+          var asd =  dictionary.GetNext();
+            
+           
         }
 
         private void Btn_Antwort_1_Click(object sender, RoutedEventArgs e)
