@@ -16,8 +16,8 @@
         <Button x:Name="btn_Weiter" Content="Weiter" Margin="671,318,0,0" Click="Button_Next_Click" FontSize="18" HorizontalAlignment="Left" Width="86" Height="59" VerticalAlignment="Top" Style="{DynamicResource btn_weiter_Style}" Visibility="Hidden">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FF40A4DD" Offset="0"/>
-                    <GradientStop Color="#FFA8DFFB" Offset="1"/>
+                    <GradientStop Color="#FF40A4DD" Offset="1"/>
+                    <GradientStop Color="#FFA8DFFB"/>
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
@@ -103,7 +103,11 @@
         <Label x:Name="lbl_User" Content="Deine Antwort:" Margin="484,122,0,0" FontSize="16" HorizontalAlignment="Left" Width="124" Height="31" VerticalAlignment="Top"/>
         <Label x:Name="lbl_Richtig" Content="Richtige Antwort:" HorizontalAlignment="Left" Margin="484,158,0,0" VerticalAlignment="Top" Width="138" FontSize="16"/>
         <TextBlock x:Name="txbl_Question" Margin="99,100,0,0" TextWrapping="Wrap" RenderTransformOrigin="0.462,-0.014" TextAlignment="Center" FontWeight="Bold" Foreground="Black" FontSize="20" HorizontalAlignment="Left" Width="380" Height="58" VerticalAlignment="Top"/>
-        <Image x:Name="img_Logo" Margin="599,10,0,0" Source="Developer ABC Kopie.png" Stretch="Fill" HorizontalAlignment="Left" Width="183" Height="70" VerticalAlignment="Top"/>
+        <Image x:Name="img_Logo" Margin="599,10,0,0" Source="Developer ABC Kopie.png" Stretch="Fill" HorizontalAlignment="Left" Width="183" Height="70" VerticalAlignment="Top">
+            <Image.ContextMenu>
+                <ContextMenu/>
+            </Image.ContextMenu>
+        </Image>
 
     </Grid>
 </Window>
