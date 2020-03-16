@@ -21,76 +21,84 @@ namespace Vokabel
     public partial class MainWindow : Window
     {
         Dictionary dictionary = new Dictionary();
-        Werte asd;
+        CurrentQuestions currentQuestions;
+        Button[] buttons = new Button[4];
+        LinearGradientBrush defaultButtonBrush = new LinearGradientBrush();
         public MainWindow()
         {
             InitializeComponent();
             fillWindow();
-
-
-
+            defaultButtonBrush = (LinearGradientBrush) btn_Answer_1.Background;
+            buttons[0] = btn_Answer_1;
+            buttons[1] = btn_Answer_2;
+            buttons[2] = btn_Answer_3;
+            buttons[3] = btn_Answer_4;
         }
 
-        private void Btn_Antwort_1_Click(object sender, RoutedEventArgs e)
+        private void Btn_Answer_1_Click(object sender, RoutedEventArgs e)
         {
-            check( dictionary.IsCorrectAnswer(txbl_Fragewort.Text, ((Button)sender).Content.ToString()), (Button) sender);
+            check(dictionary.IsCorrectAnswer(txbl_Question.Text, ((Button)sender).Content.ToString()), (Button) sender);
         }
 
-        private void Btn_Antwort_4_Click(object sender, RoutedEventArgs e)
+        private void Btn_Answer_4_Click(object sender, RoutedEventArgs e)
         {
-            check(dictionary.IsCorrectAnswer(txbl_Fragewort.Text, ((Button)sender).Content.ToString()), (Button)sender);
+            check(dictionary.IsCorrectAnswer(txbl_Question.Text, ((Button)sender).Content.ToString()), (Button)sender);
         }
 
-        private void Btn_Antwort_2_Click(object sender, RoutedEventArgs e)
+        private void Btn_Answer_2_Click(object sender, RoutedEventArgs e)
         {
-            check(dictionary.IsCorrectAnswer(txbl_Fragewort.Text, ((Button)sender).Content.ToString()), (Button)sender);
+            check(dictionary.IsCorrectAnswer(txbl_Question.Text, ((Button)sender).Content.ToString()), (Button)sender);
         }
 
-        private void Btn_Antwort_3_Click(object sender, RoutedEventArgs e)
+        private void Btn_Answer_3_Click(object sender, RoutedEventArgs e)
         {
-            check(dictionary.IsCorrectAnswer(txbl_Fragewort.Text, ((Button)sender).Content.ToString()), (Button)sender);
+            check(dictionary.IsCorrectAnswer(txbl_Question.Text, ((Button)sender).Content.ToString()), (Button)sender);
         }
 
-        private void Button_Weiter_Click(object sender, RoutedEventArgs e)
+        private void Button_Next_Click(object sender, RoutedEventArgs e)
         {
             fillWindow();
-            btn_Antwort_1.Click += Btn_Antwort_1_Click;
-            btn_Antwort_2.Click += Btn_Antwort_2_Click;
-            btn_Antwort_3.Click += Btn_Antwort_3_Click;
-            btn_Antwort_4.Click += Btn_Antwort_4_Click;
+            btn_Answer_1.Click += Btn_Answer_1_Click;
+            btn_Answer_2.Click += Btn_Answer_2_Click;
+            btn_Answer_3.Click += Btn_Answer_3_Click;
+            btn_Answer_4.Click += Btn_Answer_4_Click;
+
+            btn_Answer_1.Background = defaultButtonBrush;
+            btn_Answer_2.Background = defaultButtonBrush;
+            btn_Answer_3.Background = defaultButtonBrush;
+            btn_Answer_4.Background = defaultButtonBrush;
+            lbl_Richtige_Antwort.Content = "";
+            lbl_User_Antwort.Content = "";
             btn_Weiter.Visibility = Visibility.Hidden;
 
         }
         private void fillLabels(Button button)
         {
-            lbl_Richtige_Antwort.Content = asd.antworten[asd.correctI];
+            lbl_Richtige_Antwort.Content = currentQuestions.answers[currentQuestions.correctID];
             lbl_User_Antwort.Content = button.Content;
         }
         private void fillWindow()
         {
-            asd = dictionary.GetNext();
-            btn_Antwort_1.Content = asd.antworten[0];
-            btn_Antwort_2.Content = asd.antworten[1];
-            btn_Antwort_3.Content = asd.antworten[2];
-            btn_Antwort_4.Content = asd.antworten[3];
-            txbl_Fragewort.Text = asd.frage;
+            currentQuestions = dictionary.GetNext();
+            btn_Answer_1.Content = currentQuestions.answers[0];
+            btn_Answer_2.Content = currentQuestions.answers[1];
+            btn_Answer_3.Content = currentQuestions.answers[2];
+            btn_Answer_4.Content = currentQuestions.answers[3];
+            txbl_Question.Text = currentQuestions.question;
         }
         private void check( bool check, Button sender) {
-            if (check)
-            {
-                sender.Background = Brushes.Green;
-            }
-            else
+
+            if (!check)
             {
                 sender.Background = Brushes.Red;
             }
             fillLabels(sender);
-
+            buttons[currentQuestions.correctID].Background = Brushes.Green;
             btn_Weiter.Visibility = Visibility.Visible;
-            btn_Antwort_1.Click -= Btn_Antwort_1_Click;
-            btn_Antwort_2.Click -= Btn_Antwort_2_Click;
-            btn_Antwort_3.Click -= Btn_Antwort_3_Click;
-            btn_Antwort_4.Click -= Btn_Antwort_4_Click;
+            btn_Answer_1.Click -= Btn_Answer_1_Click;
+            btn_Answer_2.Click -= Btn_Answer_2_Click;
+            btn_Answer_3.Click -= Btn_Answer_3_Click;
+            btn_Answer_4.Click -= Btn_Answer_4_Click;
 
         }
 

@@ -10,15 +10,11 @@ namespace Vokabel
 {
     class Dictionary
     {
-       private Dictionary<string, string> dataDictionary = new Dictionary<string, string>();
+       private Dictionary<string, string> dictionary = new Dictionary<string, string>();
         public Dictionary()
         {
-            
-            //XDocument doc = XDocument.Parse(Properties.Resources.Vokabelliste);
-
             XmlDocument xml = new XmlDocument();
-            xml.LoadXml(Properties.Resources.Vokabelliste); // suppose that myXmlString contains "<Names>...</Names>"
-
+            xml.LoadXml(Properties.Resources.Vokabelliste);
             XmlNodeList xnList = xml.SelectNodes("/root/row");
             foreach (XmlNode xn in xnList)
             {
@@ -26,40 +22,35 @@ namespace Vokabel
                 string deutsch = xn["Deutsch"].InnerText;
                 try
                 {
-                    dataDictionary.Add(englisch, deutsch);
+                    dictionary.Add(englisch, deutsch);
                 }
                 catch (Exception)
                 {
                 }
-                
             }
         }
-        public Werte GetNext()
+        public CurrentQuestions GetNext()
         {
             Random rand = new Random();
-            Werte werte = new Werte();
-            werte.antworten = new string[4];
-            werte.frage = dataDictionary.ElementAt(rand.Next(0, dataDictionary.Count)).Key;
-            werte.correctI = rand.Next(0, 3);
-            dataDictionary.TryGetValue(werte.frage, out werte.antworten[werte.correctI]);
-          //  int tmpRnd = rand.Next(0, 3);
-            //  !werte.antworten[tmpRnd] == null
-
-            for (int i = 0; i < werte.antworten.Length; i++)
+            CurrentQuestions currentQuestions = new CurrentQuestions();
+            currentQuestions.answers = new string[4];
+            currentQuestions.question = dictionary.ElementAt(rand.Next(0, dictionary.Count)).Key;
+            currentQuestions.correctID = rand.Next(0, 3);
+            dictionary.TryGetValue(currentQuestions.question, out currentQuestions.answers[currentQuestions.correctID]);
+            for (int i = 0; i < currentQuestions.answers.Length; i++)
             {
-                if (werte.antworten[i] == null)
+                if (currentQuestions.answers[i] == null)
                 {
-                    werte.antworten[i] = dataDictionary.ElementAt(rand.Next(0, dataDictionary.Count)).Value;
+                    currentQuestions.answers[i] = dictionary.ElementAt(rand.Next(0, dictionary.Count)).Value;
                 }
             }
-            return werte;
-
+            return currentQuestions;
         }
-        public bool IsCorrectAnswer(string englisch, string deutsch)
+        public bool IsCorrectAnswer(string englisch, string german)
         {
             string correct;
-            dataDictionary.TryGetValue(englisch, out correct);
-            if (correct == deutsch)
+            dictionary.TryGetValue(englisch, out correct);
+            if (correct == german)
             {
                 return true;
             }
@@ -68,16 +59,15 @@ namespace Vokabel
         public string CorrectAnswer(string englisch)
         {
             string correct;
-            dataDictionary.TryGetValue(englisch, out correct);
+            dictionary.TryGetValue(englisch, out correct);
             return correct;
         }
     }
 
-    struct Werte
+    struct CurrentQuestions
     {
-        public int correctI;
-        public string frage;
-        public string[] antworten;
-
+        public int correctID;
+        public string question;
+        public string[] answers;
     }
 }
