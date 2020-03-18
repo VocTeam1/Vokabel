@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vokabel"
         mc:Ignorable="d"
-        Title="Vokabeltrainer" Height="450" Width="800">
+        Title="Vokabeltrainer" Height="590.35" Width="823">
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -13,7 +13,7 @@
                 <GradientStop Color="#FFF0F4F5" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button x:Name="btn_Weiter" Content="Weiter" Margin="671,318,0,0" Click="Button_Next_Click" FontSize="18" HorizontalAlignment="Left" Width="86" Height="59" VerticalAlignment="Top" Style="{DynamicResource btn_weiter_Style}" Visibility="Hidden">
+        <Button x:Name="btn_Weiter" Content="Weiter" Margin="685,461,0,0" Click="Button_Next_Click" FontSize="18" HorizontalAlignment="Left" Width="86" Height="59" VerticalAlignment="Top" Style="{DynamicResource btn_weiter_Style}" Visibility="Hidden">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF40A4DD" Offset="1"/>
@@ -21,7 +21,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="btn_Answer_4" Content="" Margin="353,209,0,0" FontSize="18" Click="Btn_Answer_4_Click" BorderThickness="1" Style="{DynamicResource btn_Antwort_1_Style}" HorizontalAlignment="Left" Width="265" Height="70" VerticalAlignment="Top" Cursor="Hand">
+        <Button x:Name="btn_Answer_4" Content="" Margin="44,461,0,0" FontSize="18" Click="Btn_Answer_4_Click" BorderThickness="1" Style="{DynamicResource btn_Antwort_1_Style}" HorizontalAlignment="Left" Width="375" Height="70" VerticalAlignment="Top" Cursor="Hand">
             <Button.Effect>
                 <DropShadowEffect Color="#FFA6A6A6" BlurRadius="10"/>
             </Button.Effect>
@@ -42,7 +42,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="btn_Answer_3" Content="" Margin="353,307,0,0" FontSize="18" Click="Btn_Answer_3_Click" Style="{DynamicResource btn_Antwort_1_Style}" HorizontalAlignment="Left" Width="265" Height="70" VerticalAlignment="Top">
+        <Button x:Name="btn_Answer_3" Content="" Margin="44,377,0,0" FontSize="18" Click="Btn_Answer_3_Click" Style="{DynamicResource btn_Antwort_1_Style}" HorizontalAlignment="Left" Width="375" Height="70" VerticalAlignment="Top">
             <Button.Effect>
                 <DropShadowEffect BlurRadius="10" Color="#FFA6A6A6"/>
             </Button.Effect>
@@ -63,7 +63,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="btn_Answer_2" Content="" Margin="44,307,0,0" FontSize="18" Click="Btn_Answer_2_Click" Style="{DynamicResource btn_Antwort_1_Style}" HorizontalAlignment="Left" Width="265" Height="70" VerticalAlignment="Top" Cursor="Hand">
+        <Button x:Name="btn_Answer_2" Content="" Margin="44,293,0,0" FontSize="18" Click="Btn_Answer_2_Click" Style="{DynamicResource btn_Antwort_1_Style}" HorizontalAlignment="Left" Width="375" Height="70" VerticalAlignment="Top" Cursor="Hand">
             <Button.Effect>
                 <DropShadowEffect BlurRadius="10" Color="#FFA6A6A6"/>
             </Button.Effect>
@@ -84,7 +84,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="btn_Answer_1" Content="" Margin="44,209,0,0" FontSize="18" Click="Btn_Answer_1_Click" Style="{DynamicResource btn_Antwort_1_Style}" HorizontalAlignment="Left" Width="265" Height="70" VerticalAlignment="Top" Cursor="Hand">
+        <Button x:Name="btn_Answer_1" Content="" Margin="44,209,0,0" FontSize="18" Click="Btn_Answer_1_Click" Style="{DynamicResource btn_Antwort_1_Style}" HorizontalAlignment="Left" Width="375" Height="70" VerticalAlignment="Top" Cursor="Hand">
             <Button.Effect>
                 <DropShadowEffect BlurRadius="10" Color="#FFA6A6A6"/>
             </Button.Effect>
@@ -97,13 +97,13 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Label x:Name="lbl_Ueberschrift" Content="Übersetze bitte dieses Wort:" Margin="133,43,0,0" FontSize="20" HorizontalAlignment="Left" Width="346" Height="37" VerticalAlignment="Top"/>
-        <Label x:Name="lbl_User_Antwort" Content="" Margin="632,122,0,0" VerticalAlignment="Top" FontSize="16" HorizontalAlignment="Left" Width="150"/>
-        <Label x:Name="lbl_Richtige_Antwort" Content="" Margin="632,158,0,0" VerticalAlignment="Top" FontSize="16" HorizontalAlignment="Left" Width="150"/>
-        <Label x:Name="lbl_User" Content="Deine Antwort:" Margin="484,122,0,0" FontSize="16" HorizontalAlignment="Left" Width="124" Height="31" VerticalAlignment="Top"/>
-        <Label x:Name="lbl_Richtig" Content="Richtige Antwort:" HorizontalAlignment="Left" Margin="484,158,0,0" VerticalAlignment="Top" Width="138" FontSize="16"/>
-        <TextBlock x:Name="txbl_Question" Margin="99,100,0,0" TextWrapping="Wrap" RenderTransformOrigin="0.462,-0.014" TextAlignment="Center" FontWeight="Bold" Foreground="Black" FontSize="20" HorizontalAlignment="Left" Width="380" Height="58" VerticalAlignment="Top"/>
-        <Image x:Name="img_Logo" Margin="599,10,0,0" Source="Developer ABC Kopie.png" Stretch="Fill" HorizontalAlignment="Left" Width="183" Height="70" VerticalAlignment="Top">
+        <Label x:Name="lbl_Ueberschrift" Content="Übersetze bitte dieses Wort:" Margin="109,84,0,0" FontSize="20" HorizontalAlignment="Left" Width="257" Height="37" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_User_Antwort" Content="" Margin="479,256,0,0" VerticalAlignment="Top" FontSize="16" HorizontalAlignment="Left" Width="333"/>
+        <Label x:Name="lbl_Richtige_Antwort" Content="" Margin="479,368,0,0" VerticalAlignment="Top" FontSize="16" HorizontalAlignment="Left" Width="333"/>
+        <Label x:Name="lbl_User" Content="Deine Antwort:" Margin="479,225,0,0" FontSize="16" HorizontalAlignment="Left" Width="124" Height="31" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_Richtig" Content="Richtige Antwort:" HorizontalAlignment="Left" Margin="479,332,0,0" VerticalAlignment="Top" Width="138" FontSize="16"/>
+        <TextBlock x:Name="txbl_Question" Margin="44,126,0,0" TextWrapping="Wrap" RenderTransformOrigin="0.462,-0.014" TextAlignment="Center" FontWeight="Bold" Foreground="Black" FontSize="20" HorizontalAlignment="Left" Width="380" Height="58" VerticalAlignment="Top"/>
+        <Image x:Name="img_Logo" Margin="622,10,0,0" Source="Developer ABC Kopie.png" Stretch="Fill" HorizontalAlignment="Left" Width="183" Height="70" VerticalAlignment="Top">
             <Image.ContextMenu>
                 <ContextMenu/>
             </Image.ContextMenu>
