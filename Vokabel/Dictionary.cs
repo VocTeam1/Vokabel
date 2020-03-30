@@ -8,10 +8,10 @@ using System.Xml.Linq;
 
 namespace Vokabel
 {
-    class Dictionary
+     public class Dictionary
     {
        private Dictionary<string, string> dictionary = new Dictionary<string, string>();
-        public Dictionary()
+         public Dictionary()
         {
             XmlDocument xml = new XmlDocument();
             xml.LoadXml(Properties.Resources.Vokabelliste);
@@ -58,7 +58,7 @@ namespace Vokabel
         }
     }
 
-    struct CurrentQuestion
+   public struct CurrentQuestion
     {
         public int correctID; // Index von richtige Antwort in array "answers"
         public string question; // Die Frage

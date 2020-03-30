@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2016
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vokabel", "Vokabel\Vokabel.csproj", "{1519F849-D956-4520-9A6D-95B57025BA38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryTests", "DictionaryTests\DictionaryTests.csproj", "{48942302-8FDB-4909-AC2E-E075BC0BE7FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1519F849-D956-4520-9A6D-95B57025BA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1519F849-D956-4520-9A6D-95B57025BA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1519F849-D956-4520-9A6D-95B57025BA38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48942302-8FDB-4909-AC2E-E075BC0BE7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48942302-8FDB-4909-AC2E-E075BC0BE7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48942302-8FDB-4909-AC2E-E075BC0BE7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48942302-8FDB-4909-AC2E-E075BC0BE7FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
