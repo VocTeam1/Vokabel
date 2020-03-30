@@ -8,10 +8,10 @@ using System.Xml.Linq;
 
 namespace Vokabel
 {
-    class Dictionary
+     public class Dictionary
     {
        private Dictionary<string, string> dictionary = new Dictionary<string, string>();
-        public Dictionary()
+         public Dictionary()
         {
             XmlDocument xml = new XmlDocument();
             xml.LoadXml(Properties.Resources.Vokabelliste);
@@ -29,10 +29,10 @@ namespace Vokabel
                 }
             }
         }
-        public CurrentQuestions GetNext()
+        public CurrentQuestion GetNext()
         {
             Random rand = new Random();
-            CurrentQuestions currentQuestions = new CurrentQuestions();
+            CurrentQuestion currentQuestions = new CurrentQuestion();
             currentQuestions.answers = new string[4];
             currentQuestions.question = dictionary.ElementAt(rand.Next(0, dictionary.Count)).Key;
             currentQuestions.correctID = rand.Next(0, 3);
@@ -56,18 +56,12 @@ namespace Vokabel
             }
             return false;
         }
-        public string CorrectAnswer(string englisch)
-        {
-            string correct;
-            dictionary.TryGetValue(englisch, out correct);
-            return correct;
-        }
     }
 
-    struct CurrentQuestions
+   public struct CurrentQuestion
     {
-        public int correctID;
-        public string question;
-        public string[] answers;
+        public int correctID; // Index von richtige Antwort in array "answers"
+        public string question; // Die Frage
+        public string[] answers; // Array von antworten.
     }
 }

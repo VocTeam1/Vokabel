@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vokabel"
         mc:Ignorable="d"
-        Title="Vokabeltrainer" Height="590.35" Width="823">
+        Title="Vokabeltrainer" Height="590.35" Width="819" MaxWidth="823" MaxHeight="590.35" MinWidth="819" MinHeight="590.35" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">

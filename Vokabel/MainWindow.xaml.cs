@@ -10,13 +10,13 @@ namespace Vokabel
     public partial class MainWindow : Window
     {
         Dictionary dictionary = new Dictionary();
-        CurrentQuestions currentQuestions;
+        CurrentQuestion currentQuestions;
         Button[] buttons = new Button[4];
         LinearGradientBrush defaultButtonBrush = new LinearGradientBrush();
         public MainWindow()
         {
             InitializeComponent();
-            fillWindow();
+            FillWindow();
             defaultButtonBrush = (LinearGradientBrush) btn_Answer_1.Background;
             buttons[0] = btn_Answer_1;
             buttons[1] = btn_Answer_2;
@@ -26,27 +26,27 @@ namespace Vokabel
 
         private void Btn_Answer_1_Click(object sender, RoutedEventArgs e)
         {
-            check(dictionary.IsCorrectAnswer(txbl_Question.Text, ((Button)sender).Content.ToString()), (Button) sender);
+            Check(dictionary.IsCorrectAnswer(txbl_Question.Text, ((Button)sender).Content.ToString()), (Button) sender);
         }
 
         private void Btn_Answer_4_Click(object sender, RoutedEventArgs e)
         {
-            check(dictionary.IsCorrectAnswer(txbl_Question.Text, ((Button)sender).Content.ToString()), (Button)sender);
+            Check(dictionary.IsCorrectAnswer(txbl_Question.Text, ((Button)sender).Content.ToString()), (Button)sender);
         }
 
         private void Btn_Answer_2_Click(object sender, RoutedEventArgs e)
         {
-            check(dictionary.IsCorrectAnswer(txbl_Question.Text, ((Button)sender).Content.ToString()), (Button)sender);
+            Check(dictionary.IsCorrectAnswer(txbl_Question.Text, ((Button)sender).Content.ToString()), (Button)sender);
         }
 
         private void Btn_Answer_3_Click(object sender, RoutedEventArgs e)
         {
-            check(dictionary.IsCorrectAnswer(txbl_Question.Text, ((Button)sender).Content.ToString()), (Button)sender);
+            Check(dictionary.IsCorrectAnswer(txbl_Question.Text, ((Button)sender).Content.ToString()), (Button)sender);
         }
 
         private void Button_Next_Click(object sender, RoutedEventArgs e)
         {
-            fillWindow();
+            FillWindow();
             btn_Answer_1.Click += Btn_Answer_1_Click;
             btn_Answer_2.Click += Btn_Answer_2_Click;
             btn_Answer_3.Click += Btn_Answer_3_Click;
@@ -67,12 +67,12 @@ namespace Vokabel
             btn_Weiter.Visibility = Visibility.Hidden;
 
         }
-        private void fillLabels(Button button)
+        private void FillLabels(Button button)
         {
             lbl_Richtige_Antwort.Content = currentQuestions.answers[currentQuestions.correctID];
             lbl_User_Antwort.Content = button.Content;
         }
-        private void fillWindow()
+        private void FillWindow()
         {
             currentQuestions = dictionary.GetNext();
             btn_Answer_1.Content = currentQuestions.answers[0];
@@ -81,13 +81,13 @@ namespace Vokabel
             btn_Answer_4.Content = currentQuestions.answers[3];
             txbl_Question.Text = currentQuestions.question;
         }
-        private void check( bool check, Button sender) {
+        private void Check(bool check, Button sender) {
 
             if (!check)
             {
                 sender.Background = Brushes.Red;
             }
-            fillLabels(sender);
+            FillLabels(sender);
             buttons[currentQuestions.correctID].Background = Brushes.Green;
             btn_Weiter.Visibility = Visibility.Visible;
             btn_Answer_1.Click -= Btn_Answer_1_Click;
