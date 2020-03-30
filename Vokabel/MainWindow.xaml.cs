@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Vokabel
 {
@@ -67,6 +56,12 @@ namespace Vokabel
             btn_Answer_2.Background = defaultButtonBrush;
             btn_Answer_3.Background = defaultButtonBrush;
             btn_Answer_4.Background = defaultButtonBrush;
+
+            btn_Answer_1.Cursor = System.Windows.Input.Cursors.Hand;
+            btn_Answer_2.Cursor = System.Windows.Input.Cursors.Hand;
+            btn_Answer_3.Cursor = System.Windows.Input.Cursors.Hand;
+            btn_Answer_4.Cursor = System.Windows.Input.Cursors.Hand;
+
             lbl_Richtige_Antwort.Content = "";
             lbl_User_Antwort.Content = "";
             btn_Weiter.Visibility = Visibility.Hidden;
@@ -99,6 +94,11 @@ namespace Vokabel
             btn_Answer_2.Click -= Btn_Answer_2_Click;
             btn_Answer_3.Click -= Btn_Answer_3_Click;
             btn_Answer_4.Click -= Btn_Answer_4_Click;
+
+            btn_Answer_1.Cursor = System.Windows.Input.Cursors.Arrow;
+            btn_Answer_2.Cursor = System.Windows.Input.Cursors.Arrow;
+            btn_Answer_3.Cursor = System.Windows.Input.Cursors.Arrow;
+            btn_Answer_4.Cursor = System.Windows.Input.Cursors.Arrow;
 
         }
 
